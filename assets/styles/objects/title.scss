@@ -1,0 +1,9 @@
+@import 'settings/variables';
+@import 'tools/mixins/import_once';
+
+@include import_once('objects/title') {
+  .title {
+    border-bottom: 6px solid $accent-100;
+    border-radius: 6px;
+  }
+}

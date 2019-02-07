@@ -1,0 +1,8 @@
+@import 'settings/variables';
+@import 'tools/mixins/import_once';
+
+@include import_once('objects/image') {
+  .image {
+    padding: 16px 16px 32px;
+  }
+}
