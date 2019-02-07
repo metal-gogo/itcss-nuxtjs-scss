@@ -7,5 +7,7 @@
         <nuxt-link to="/what_is_itcss">¿Qué es ITCSS?</nuxt-link>
       </li>
     </ol>
+    <a href="/files/itcss_nuxt_scss.pdf">Slides</a>
+    <a href="https://github.com/metal-gogo/itcss-nuxtjs-scss">Code</a>
   </section>
 </template>
