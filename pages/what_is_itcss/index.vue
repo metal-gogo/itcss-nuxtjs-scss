@@ -70,7 +70,7 @@
       class="image"
     >
     <h2>La gráfica de especificidad utilizando ITCSS</h2>
-    <p>Harry Roberts introdujo el término de "La gráfica de especificidad" en el 2014. Esta es una representacioón visual de que tan específico es el código con respecto a su posición en el archivo. Con esta gráfica podemos determinar que tan específico es nuestro código y cuantas reglas se tienen que sobreescribir.</p>
+    <p>Harry Roberts introdujo el término de "La gráfica de especificidad" en el 2014. Esta es una representación visual de que tan específico es el código con respecto a su posición en el archivo. Con esta gráfica podemos determinar que tan específico es nuestro código y cuantas reglas se tienen que sobreescribir.</p>
     <img
       src="/images/specificity graph 2019-02-07.png"
       alt="Gráfica de especificidad al 2019-02-07 de este sitio"
