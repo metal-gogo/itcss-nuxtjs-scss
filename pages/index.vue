@@ -1,8 +1,11 @@
 <template>
   <section class="container">
-    <div>
-      <h1>ITCSS with Nuxt and SCSS</h1>
-      <h2>Base project using ITCSS with Nuxt.js and SCSS</h2>
-    </div>
+    <h1 class="title">ITCSS con Nuxt.js y SCSS</h1>
+    <h2>Índice</h2>
+    <ol>
+      <li>
+        <nuxt-link to="/what_is_itcss">¿Qué es ITCSS?</nuxt-link>
+      </li>
+    </ol>
   </section>
 </template>
