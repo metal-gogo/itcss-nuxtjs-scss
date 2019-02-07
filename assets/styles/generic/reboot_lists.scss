@@ -1,0 +1,10 @@
+@import "tools/mixins/import_once";
+
+@include import_once('generic/reboot_lists') {
+  ol,
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+}

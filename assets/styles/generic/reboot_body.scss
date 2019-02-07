@@ -1,0 +1,36 @@
+@import 'settings/variables';
+@import 'tools/mixins/import_once';
+
+@include import_once('generic/reboot_body') {
+  body {
+    margin: 0; // Remove default body margin of 8px
+    font-family: 'Nunito Sans',
+      // Beek font
+        -apple-system,
+      // Safari for OS X and iOS (San Francisco)
+        system-ui,
+      // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
+        BlinkMacSystemFont,
+      // Chrome < 56 for OS X (San Francisco)
+        'Segoe UI',
+      // Windows
+        Roboto,
+      // Android
+        'Helvetica Neue',
+      Arial, sans-serif,
+      // Basic web fallback
+        'Apple Color Emoji',
+      // iOS and macOS emojis
+        'Segoe UI Emoji',
+      // windows > 7 emojis
+        'Segoe UI Symbol'; // windows 7 emojis
+    font-size: 16px; // Base font
+    font-weight: 400; // Base font-weight for everything
+    line-height: 1.5; // Base line-height
+    color: $primary-100; // Base text color
+    background-color: $white; // As a best practice, apply a default `background-color`.
+    text-align: left; //Set an explicit initial text-align value so that we can later use the `inherit` value on things like `<th>` elements.
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}

@@ -1,0 +1,27 @@
+@import 'tools/mixins/import_once';
+
+@include import_once('generic/reboot_remove_margin_top') {
+  /*------------------------------------------------------------------------------------------------------------*\
+        Remove `margin-top` from all elements that have it.
+        It's useful to keep all spacing top to down
+        `blockquote`, `dl`, `figure`, `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `hr`, `menu`, `ol`, `p`, `pre`, `ul`
+  \*------------------------------------------------------------------------------------------------------------*/
+  blockquote,
+  dl,
+  figure,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  hr,
+  h6,
+  menu,
+  ol,
+  p,
+  pre,
+  ul {
+    margin-top: 0;
+  }
+}

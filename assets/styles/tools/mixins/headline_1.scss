@@ -1,0 +1,12 @@
+@import 'settings/variables';
+
+/// Module export mixin
+/// This mixin helps creating our caption texts making sure a module is imported once and only once.
+/// @access public
+/// @param {String} $color - color the font should take
+@mixin headline-1($color: $primary-100) {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: $color;
+}
