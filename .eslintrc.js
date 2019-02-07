@@ -7,15 +7,17 @@ module.exports = {
   parserOptions: {
     parser: 'babel-eslint'
   },
-  extends: ['@nuxtjs', 'plugin:prettier/recommended'],
-  plugins: ['prettier'],
+  extends: [
+    '@nuxtjs',
+    'plugin:vue/recommended',
+    'plugin:prettier/recommended',
+    '@vue/eslint-config-prettier'
+  ],
+  // required to lint *.vue files
+  plugins: ['prettier', 'vue'],
   // add your custom rules here
   rules: {
-    'vue/html-closing-bracket-spacing': [
-      'error',
-      {
-        selfClosingTag: 'never'
-      }
-    ]
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
 }
