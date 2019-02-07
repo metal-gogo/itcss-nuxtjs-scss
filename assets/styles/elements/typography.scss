@@ -9,27 +9,27 @@
 
 @include import_once('elements/typography') {
   h1 {
-    @include %headline-1;
+    @include headline-1;
   }
 
   h2 {
-    @include %headline-2;
+    @include headline-2;
   }
 
   h3 {
-    @include %headline-3;
+    @include headline-3;
   }
 
   h4 {
-    @include %headline-4;
+    @include headline-4;
   }
 
   p {
-    @include %body-1;
+    @include body-1;
   }
 
   li {
-    @include %body-2;
+    @include body-2;
   }
 
   // And undo these styles for placeholder links/named anchors (without href)

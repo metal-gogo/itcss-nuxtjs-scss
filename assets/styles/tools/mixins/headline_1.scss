@@ -5,6 +5,7 @@
 /// @access public
 /// @param {String} $color - color the font should take
 @mixin headline-1($color: $primary-100) {
+  margin-bottom: 40px;
   font-size: 48px;
   font-weight: bold;
   line-height: 1.1;

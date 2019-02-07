@@ -5,6 +5,7 @@
 /// @access public
 /// @param {String} $color - color the font should take
 @mixin body-2($color: $primary-100) {
+  margin-bottom: 4px;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.5;
