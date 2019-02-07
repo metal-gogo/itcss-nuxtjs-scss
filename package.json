@@ -1,7 +1,7 @@
 {
   "name": "itcss-nuxt-scss",
   "version": "1.0.0",
-  "description": "Base project using ITCSS with Nuxt.js and SCSS",
+  "description": "Base demo using ITCSS with Nuxt.js and SCSS",
   "author": "metal-gogo",
   "private": true,
   "scripts": {
@@ -11,7 +11,8 @@
     "pregenerate": "yarn lint",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "deploy": "firebase deploy"
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.6.0",
